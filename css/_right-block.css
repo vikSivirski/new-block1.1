@@ -1,0 +1,267 @@
+.right-block {
+    flex-direction: column;
+    padding: 76px 55px 76px 50px;
+}
+
+.right-block__title {
+    margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--base-text);
+}
+
+.right-block__descr {
+    margin-bottom: 37px;
+    font-weight: 400;
+    font-size: 13.4px;
+    line-height: 20px;
+    color: var(--base-text);
+}
+
+.btn {
+    position: relative;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    width: 46%;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px; 
+}
+
+.btn svg {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 13px;
+    height: 13px;
+}
+
+.group-btn {
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.group-btn__fb {
+    text-decoration: none;
+    background-color: var(--fb-btn);
+    transition: background-color .2s ease-in-out;
+}
+
+
+.group-btn__in {
+    text-decoration: none;
+    background-color: var(--in-btn);
+    transition: background-color .2s ease-in-out;
+}
+
+.group-btn__fb:hover {
+    background-color: var(--fb-btn-hover);
+}
+
+.group-btn__in:hover {
+    background-color: var(--in-btn-hover);
+}
+
+.group-btn__fb:focus-visible {
+    outline: none;
+    background-color: var(--fb-btn-hover);
+}
+
+.group-btn__in:focus-visible {
+    outline: none;
+    background-color: var(--in-btn-hover);
+}
+
+.group-btn__fb:active {
+    background-color: var(--fb-btn-active);
+}
+
+.group-btn__in:active {
+    background-color: var(--in-btn-active);
+}
+
+.or {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 28px;
+    align-self: center;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 20px;
+    color: var(--base-text);
+}
+
+.or::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    height: 2px;
+    width: 100px;
+    background-color: var(--dark-white);
+}
+
+.or::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    height: 2px;
+    width: 100px;
+    background-color: var(--dark-white);
+}
+
+.registration-form {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registration-form__input-wrap {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.registration-form__input {
+    position: relative;
+    width: 45%;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--dark-white);
+    transition: border-left .2s ease-in-out;
+}
+
+.registration-form__input:hover {
+    border-left: 2px solid var(--account-btn);
+}
+
+.registration-form__input:focus {
+    border-left: 2px solid var(--account-btn);
+}
+
+.registration-form__input::placeholder {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.investor-type__title {
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--base-text);
+}
+
+.investor-type__descr {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: var(--base-text);
+}
+
+.investor-select {
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.investor-select__radio-custom {
+    user-select: none;
+    cursor: pointer;
+}
+
+.investor-select__input {
+    appearance: none;
+}
+
+.investor-select__text {
+    position: relative;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--base-text);
+}
+
+.investor-select__text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 100px;
+    transform: translateY(-50%);
+    transition: border 0.2s ease-in-out;
+}
+
+.investor-select__radio-custom:hover .investor-select__text::before{
+    border: 1px solid var(--radio-hover);
+}
+
+.investor-select__input:checked + .investor-select__text::before {
+    border: 3px solid var(--account-btn);
+}
+
+.registration-form__license {
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+}
+
+.registration-form__checkbox {
+    margin-right: 5px;
+}
+
+.license-text--mobile {
+    display: none;
+}
+
+.registration-form__license {
+    margin-bottom: 50px;
+}
+
+.license-text {
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 20px;
+    color: var(--gray);
+    padding-bottom: -5px;
+}
+
+.registration-form__btn {
+    padding: 10px 0;
+    width: 50%;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--account-btn);
+    transition: background-color .2s ease-in-out;
+}
+
+.registration-form__btn:hover {
+    background-color: var(--account-btn-hover);
+}
+
+.registration-form__btn:focus-visible {
+    background-color: var(--account-btn-hover);
+}
+
+.registration-form__btn:active {
+    background-color: var(--account-btn-active);
+}

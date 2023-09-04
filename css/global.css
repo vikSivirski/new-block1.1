@@ -1,0 +1,80 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+img,
+svg {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+body {
+    min-width: 320px;
+    font-family: "Barlow";
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.container {
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    background-color: var(--background);
+    justify-content: center;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text {
+    margin: 0;
+}
