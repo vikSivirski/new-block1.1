@@ -1,6 +1,6 @@
-@import url('../fonts.css');
-@import url('../variables.css');
-@import url('../global.css');
-@import url('../_left-block.css');
-@import url('../_right-block.css');
-@import url('../media.css');
+@import url('./fonts.css');
+@import url('./variables.css');
+@import url('./global.css');
+@import url('./_left-block.css');
+@import url('./_right-block.css');
+@import url('./media.css');
