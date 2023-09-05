@@ -1,201 +1,201 @@
 @media (max-width: 1200px) {
-    .license-text {
-        font-size: 0.9vw;
-    }
+  .license-text {
+    font-size: 0.9vw;
+  }
 }
 
 @media (max-width: 1024px) {
-    .right-block__descr {
-        margin-bottom: 20px;
-    }
+  .right-block__descr {
+    margin-bottom: 20px;
+  }
 
-    .group-btn {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
+  .group-btn {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 
-    .or {
-        margin-bottom: 20px;
-    }
+  .or {
+    margin-bottom: 20px;
+  }
 
-    .btn {
-        width: 100%;
-    }
+  .btn {
+    width: 100%;
+  }
 
-    .btn:not(:last-child) {
-        margin-bottom: 10px;
-    }
+  .btn:not(:last-child) {
+    margin-bottom: 10px;
+  }
 
-    .registration-form__input-wrap {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
+  .registration-form__input-wrap {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
 
-    .registration-form__input {
-        width: 100%;
-    }
+  .registration-form__input {
+    width: 100%;
+  }
 
-    .registration-form__input:not(:last-child) {
-        margin-bottom: 15px;
-    }
+  .registration-form__input:not(:last-child) {
+    margin-bottom: 15px;
+  }
 
-    .investor-type__descr {
-        margin-bottom: 20px;
-    }
+  .investor-type__descr {
+    margin-bottom: 20px;
+  }
 
-    .investor-select {
-        margin-bottom: 30px;
-    }
+  .investor-select {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 934px) {
-    .main-block {
-        width: 100%;
-        height: auto;
-    }
-    
-    .right-block__descr {
-        font-size: 1.3vw;
-    }
+  .main-block {
+    width: 100%;
+    height: auto;
+  }
 
-    .registration-form__input:not(:last-child) {
-        margin-bottom: 10px;
-    }
+  .right-block__descr {
+    font-size: 1.3vw;
+  }
 
-    .investor-type__descr {
-        margin-bottom: 15px;
-    }
+  .registration-form__input:not(:last-child) {
+    margin-bottom: 10px;
+  }
 
-    .investor-select {
-        margin-bottom: 20px;
-    }
+  .investor-type__descr {
+    margin-bottom: 15px;
+  }
 
-    .investor-select {
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+  .investor-select {
+    margin-bottom: 20px;
+  }
 
-    .investor-select__radio-custom {
-        display: inline-block;
-        min-width: 50%;
-    }
+  .investor-select {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-    .license-text {
-        display: none;
-    }
+  .investor-select__radio-custom {
+    display: inline-block;
+    min-width: 50%;
+  }
 
-    .license-text--mobile {
-        display: inline-block;
-        font-size: 1.3vw;
-    }
+  .license-text {
+    display: none;
+  }
+
+  .license-text--mobile {
+    display: inline-block;
+    font-size: 1.3vw;
+  }
 }
 
 @media (max-width: 768px) {
-    .main-block {
-        flex-direction: column;
-    }
+  .main-block {
+    flex-direction: column;
+  }
 
-    .main-image {
-        position: relative;
-        margin: 0;
-        min-height: unset;
-        min-width: unset;
-        width: 100%;
-        height: 60px;
-    }
+  .main-image {
+    position: relative;
+    margin: 0;
+    min-height: unset;
+    min-width: unset;
+    width: 100%;
+    height: 60px;
+  }
 
-    .main-image__logo {
-        position: absolute;
-        display: inline-block;
-        top: 50%;
-        left: 35px;
-        width: 100px;
-        height: 25px;
-        transform: translateY(-50%);
-    }
+  .main-image__logo {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 35px;
+    width: 100px;
+    height: 25px;
+    transform: translateY(-50%);
+  }
 
-    .main-image__img {
-        background-position: top center;
-        background-size: auto;
-    }
+  .main-image__img {
+    background-position: top center;
+    background-size: auto;
+  }
 
-    .right-block {
-        padding: 40px 35px;
-    }
+  .right-block {
+    padding: 40px 35px;
+  }
 
-    .right-block__descr {
-        font-size: 11px;
-    }
+  .right-block__descr {
+    font-size: 11px;
+  }
 
-    .investor-select__radio-custom {
-        min-width: unset;
-    }
+  .investor-select__radio-custom {
+    min-width: unset;
+  }
 
-    .registration-form__license {
-        margin-bottom: 20px;
-    }
+  .registration-form__license {
+    margin-bottom: 20px;
+  }
 
-    .license-text {
-        font-size: 10.5px;
-    }
+  .license-text {
+    font-size: 10.5px;
+  }
 }
 
 @media (max-width: 610px) {
-    .right-block {
-        padding: 40px 35px;
-    }
+  .right-block {
+    padding: 40px 35px;
+  }
 }
 
 @media (max-width: 420px) {
-    .container {
-        padding: 50px 25px;
-    }
+  .container {
+    padding: 50px 25px;
+  }
 
-    .main-image__logo {
-        left: 15px;
-        width: 70px;
-        height: 20px;
-    }
+  .main-image__logo {
+    left: 15px;
+    width: 70px;
+    height: 20px;
+  }
 
-    .right-block {
-        padding: 25px 15px;
-    }
+  .right-block {
+    padding: 25px 15px;
+  }
 
-    .right-block__title {
-        margin-bottom: 8px;
-    }
+  .right-block__title {
+    margin-bottom: 8px;
+  }
 
-    .right-block__descr {
-        margin-bottom: 10px;
-        font-size: 10px;
-    }
+  .right-block__descr {
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
 
-    .group-btn {
-        margin-bottom: 10px;
-    }
+  .group-btn {
+    margin-bottom: 10px;
+  }
 
-    .or {
-        margin-bottom: 10px;
-    }
+  .or {
+    margin-bottom: 10px;
+  }
 
-    .registration-form__input-wrap {
-        margin-bottom: 10px;
-    }
+  .registration-form__input-wrap {
+    margin-bottom: 10px;
+  }
 
-    .investor-type__descr {
-        margin-bottom: 10px;
-    }
+  .investor-type__descr {
+    margin-bottom: 10px;
+  }
 
-    .investor-select {
-        margin-bottom: 10px;
-    }
+  .investor-select {
+    margin-bottom: 10px;
+  }
 
-    .investor-select__radio-custom {
-        min-width: 50%;
-    }
-    
-    .investor-select__text {
-        font-size: 13px;
-    }
+  .investor-select__radio-custom {
+    min-width: 50%;
+  }
+
+  .investor-select__text {
+    font-size: 13px;
+  }
 
 }

@@ -1,34 +1,34 @@
 .main-block {
-    width: 995px;
-    height: 690px;
-    background-color: var(--white);
+  width: 995px;
+  height: 690px;
+  background-color: var(--white);
 }
 
 .main-image {
-    position: relative;
-    margin: 0;
-    min-height: 100%;
-    min-width: 53%;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+  min-width: 53%;
 }
 
 .main-image__logo {
-    position: absolute;
-    top: 25px;
-    left: 35px;
-    display: inline-block;
-    width: 100px;
-    height: 25px;
+  position: absolute;
+  top: 25px;
+  left: 35px;
+  display: inline-block;
+  width: 100px;
+  height: 25px;
 }
 
 .main-image__logo svg {
-    height: 100%;
+  height: 100%;
 }
 
 .main-image__img {
-    width: 100%;
-    height: 100%;
-    background-image: url("../images/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
 }
