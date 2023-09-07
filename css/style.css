@@ -1,11 +1,11 @@
-/* @import url("./fonts.css");
-@import url("./variables.css");
-@import url("./global.css");
-@import url("./left-block.css");
-@import url("./right-block.css");
-@import url("./media.css"); */
+@import url("fonts.css");
+@import url("variables.css");
+@import url("global.css");
+@import url("left-block.css");
+@import url("right-block.css");
+@import url("media.css");
 
-@font-face {
+/* @font-face {
   font-family: "Barlow";
   src: local("BarlowRegular"), url("../fonts/Barlow-Regular.woff2") format("woff2");
   src: local("BarlowRegular"), url("../fonts/Barlow-Regular.woff") format("woff");
@@ -640,4 +640,4 @@ input::-webkit-search-results-decoration {
     font-size: 13px;
   }
 
-}
+} */
